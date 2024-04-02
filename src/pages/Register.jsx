@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {createUserWithEmailAndPassword } from "firebase/auth";
+import {auth} from "../firebase";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import phone1  from '../images/01.png';
@@ -7,31 +9,24 @@ import phone2  from '../images/03.png';
 import playstore from '../images/google-play-badge.png';
 import logo from '../images/image.png';
 
-import {signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
 
 function Register(){
 
-    const handleSubmit = (e)  => {
-        e.preventDefault()
-        const displayname= e.target[0].value;
-        const email= e.target[1].value;
-        const password= e.target[2].value;
-        const file= e.target[3].files[0];
-        
-signInWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-    // Signed in 
-    const user = userCredential.user;
-    // ...
-    console.log(user);
-  })
-  .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
-  });
-        
-    }
+  const [err,setErr] = useState (false)
+  const handleSubmit= async (e) =>{
+    e.preventDefault();
+    const displayname=(e.target[0].value);
+    const email=(e.target[1].value);
+    const password=(e.target[2].value);
+    const file=(e.target[3].files[0]);
+
+    try{
+    const res = await createUserWithEmailAndPassword(auth, email, password);
+  } catch(err){
+    setErr(true);
+  }
+
+  };
     return(
       <div>
         <Header/>
@@ -55,6 +50,7 @@ signInWithEmailAndPassword(auth, email, password)
             <input type= "password" name="password" placeholder="  Password"/>
             <input type= "file"/>
             <button>Sign up</button>
+            {err && <span>Something went wrong</span>}
             </form>
             <div className='login-direct'>
             <p>Already have an account? <a href=''>Login in</a></p>

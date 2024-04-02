@@ -8,14 +8,14 @@ import chat from '../../images/icons/chat.png';
 function Chat(){
     return(
         <div className="chat">
-            <div className="chatInfo">
+            {/* <div className="chatInfo">
                 <span>Goldy</span>
                 <div className="chatIcons">
                     <img src={plus} alt=""/>
                     <img src={edit} alt=""/>
                     <img src={chat} alt=""/>
                 </div>
-            </div>
+            </div> */}
 
             <div className="chat-head">
                 <span>
