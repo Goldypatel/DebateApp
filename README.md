@@ -10,8 +10,9 @@ npm install sass --save-dev
 use npm start to run the project.
 
 #
-Has some firebase code for authentication, feel free to fork and add your backend.
+Has some firebase code for authentication in register and login component, feel free to fork and add your backend.
 (site still under development)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
