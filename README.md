@@ -1,17 +1,38 @@
 front-end for a debate application with register, login, and home pages.
 
-# dont forget 
-rum npm i first 
+# dont forget installation first
+run npm i  
 
 # installs
 npm install sass --save-dev 
 
-#
-use npm start to run the project.
+# starting this porject
+npm start           //by defalut runs on local host 3000, will change automatically if 3000 is unavailable
 
 #
 Has some firebase code for authentication in register and login component, feel free to fork and add your backend.
 (site still under development)
+# Debate App
+
+## Introduction
+Debate App is an interactive platform designed for debate enthusiasts to engage in discussions and debates online. Built using React, HTML, SCSS, and JavaScript, this app provides a responsive and user-friendly interface for users to participate in or watch debates on various topics.
+
+## Features
+- **User Authentication**: Secure login and registration system for users.
+- **Live Debates**: Users can join live debate rooms and participate in real-time.    //yet to add
+- **Debate Categories**: Various categories to explore different topics.               //yet to add
+- **Voting System**: Users can vote on debates to express agreement or disagreement.   //yet to add
+- **Comment System**: Participants can comment on debates to further discuss topics.   //yet to add
+- **Responsive Design**: Fully responsive design that works on both desktop and mobile browsers.
+
+## Installation
+To set up the Debate App on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/debate-app.git
+   cd debate-app
+
 
 # Getting Started with Create React App
 
