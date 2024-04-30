@@ -1,4 +1,4 @@
-front-end for a debate application with register, login, and home pages.
+![Screenshot 2024-04-30 144447](https://github.com/Goldypatel/Debateapp/assets/112779392/70ea293e-2e52-48e5-b0d6-c440a553a85f)front-end for a debate application with register, login, and home pages.
 
 # dont forget installation first
 run npm i  
@@ -103,4 +103,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot![Screenshot 2024-04-30 144533](https://github.com/Goldypatel/Debateapp/assets/112779392/616f2282-d380-4975-aa9e-55286ccbf49e)
+ 2024-04-30 144507](https://github.com/Goldypatel/Debateapp/assets/112779392/a12a0d5e-7488-488e-95a1-c3cdee0e2fa5)
+
+![Screenshot 2024-04-30 144447](https://github.com/Goldypatel/Debateapp/assets/112779392/a98c056d-74c8-4916-b259-ab41c9cbdb8b)
+
+
+
+
