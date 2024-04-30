@@ -108,7 +108,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ![Screenshot 2024-04-30 144447](https://github.com/Goldypatel/Debateapp/assets/112779392/a98c056d-74c8-4916-b259-ab41c9cbdb8b)
 
-![Screenshot 2024-04-30 144533](https://github.com/Goldypatel/Debateapp/assets/112779392/3d1db832-8e1e-409b-ad0a-16ba70fd2044)
+
 
 
 
